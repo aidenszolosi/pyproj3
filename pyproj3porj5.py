@@ -1,3 +1,6 @@
+#aiden szolosi
+#started on 11/10/22
+
 #we must import a library, "random"
 
 import random 
