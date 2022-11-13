@@ -13,10 +13,10 @@ while True:
             RandomNumber = (random.randint(1, maxValue))
             guess = input("Make a guess! What's the number? ")
             guess = int(guess)
-            if guess == RandomNumber:
-                print('WINNER!!!')
+            if guess <= RandomNumber:
+                print('Higher!')
             else:
-                print('Try again')
+                print('Lower!')
                 print('The number was ' + str(RandomNumber))
                 break
         
