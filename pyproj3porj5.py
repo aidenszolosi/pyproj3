@@ -5,6 +5,8 @@
 
 import random 
 
+NeedToGuess: bool = True
+
 while True:
     while True:
         maxValue = input('\nWhat should the highest number for this game be? ')
@@ -15,11 +17,16 @@ while True:
             guess = int(guess)
             if guess <= RandomNumber:
                 print('Higher!')
+            
+            elif:
+                guess == RandomNumber
+            
             else:
                 print('Lower!')
-                print('The number was ' + str(RandomNumber))
                 break
         
         else:
             print('WTF IDIOT THATS NOT A NUMBER')
-         
+
+
+###print('The number was ' + str(RandomNumber)) 
